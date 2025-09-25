@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <style>
+        /* Estilos simples e limpos */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info div {
+            margin: 5px 0;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .item {
+            margin-bottom: 15px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .item-date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: #eaf2f8;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .skills-list {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pedro Arizio Ribeiro Aguiar</h1>
+            <p class="subtitle">Estudante de Análise e Desenvolvimento de Sistemas</p>
+            
+            <div class="contact-info">
+                <div>📧 pedrojrtaguiar@gmail.com</div>
+                <div>📱 (31) 99500-0615</div>
+                <div>📍 R. Maria Alvarenga Magalhães, 370. Apartamento 202, bloco 4. Vespasiano - MG, 33200-060</div>
+                <div>
+                    <a href="https://www.linkedin.com/in/pedro-arizio-aguiar" target="_blank">LinkedIn</a> | 
+                    <a href="https://github.com/jrtaguiar" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>Objetivo</h2>
+            <p>Busco estágio em desenvolvimento backend para aplicar meus conhecimentos em Python e MySQL, adquiridos através de cursos e projetos acadêmicos. Minha experiência em suporte técnico me proporcionou compreensão das necessidades dos usuários, e desejo agora contribuir ativamente na criação de soluções eficientes, com grande disposição para aprender e crescer profissionalmente.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Formação Acadêmica</h2>
+            <div class="item">
+                <div class="item-title">Análise e Desenvolvimento de Sistemas</div>
+                <div>Centro Universitário Newton Paiva</div>
+                <div class="item-date">Fevereiro 2024 - Cursando (Previsão de conclusão: Junho 2026)</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Experiência Profissional</h2>
+            <div class="item">
+                <div class="item-title">Estágio em Suporte de TI </div>
+                <div>Ânima Educação</div>
+                <div class="item-date">Janeiro 2025 - Presente</div>
+                <ul>
+                    <li>Prestação de atendimento técnico aos usuários para solução de problemas diversos </li>
+                    <li>Instalação e configuração de sistemas operacionais e aplicativos corporativos</li>
+                    <li>Auxílio no monitoramento de infraestrutura de rede e sistemas</li>
+                    <li>Suporte na instalação e manutenção de equipamentos e periféricos</li>
+                    <li>Documentação de procedimentos técnicos para referência da equipe</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-title">Analista de Suporte Comercial</div>
+                <div>Vivo Telefônica Brasil</div>
+                <div class="item-date">Junho 2023 - Junho 2024 </div>
+                <ul>
+                    <li>Suporte técnico-operacional às equipes de vendas para resolução de problemas</li>
+                    <li>Acompanhamento de aderência aos processos comerciais estabelecido</li>
+                    <li>Suporte na análise de indicadores de desempenho comercial</li>
+                    <li>Suporte no uso de sistemas internos (SAP)</li>
+                    <li>Controle de estoque e materiais para distribuição às equipes</li>
+                    <li>Treinamento de colaboradores nos sistemas e processos da empresa</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-list">
+                <span class="skill">Python (Intermediário)</span>
+                <span class="skill">MySQL (Básico)</span>
+                <span class="skill">Git (Básico)</span>
+                <span class="skill">HTML/CSS (Básico)</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Idiomas</h2>
+            <div class="item">
+                <div class="item-title">Português</div>
+                <div>Nativo</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Inglês</div>
+                <div>Basico (leitura e compreensão tecnica)</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Cursos Complementares</h2>
+            <div class="item">
+                <div class="item-title">Algoritmo</div>
+                <div>Curso em Video - 2025</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Python 3 – Mundo 1</div>
+                <div>Curso em Video - 2025</div>
+            </div>
+            <div class="item">
+                <div class="item-title">MySQL</div>
+                <div>Curso em Video - 2025</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Git e GitHub</div>
+                <div>Curso em Video - 2025</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Conectar</div>
+                <div>Rocketseat - 2025</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
